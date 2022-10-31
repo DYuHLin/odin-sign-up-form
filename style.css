@@ -131,3 +131,22 @@ input[type="email"]:invalid{
     outline: none;
     border-color: red;
 }
+
+@media (max-width: 700px){
+.main{
+    flex-direction: column;
+}
+
+.sidebar{
+    width: 100%;
+}
+
+.form-div{
+    flex-direction: column;
+}
+
+.container{
+    width: 50%;
+}
+
+}
